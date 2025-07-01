@@ -1,0 +1,52 @@
+
+body{
+    height: 100vh;
+    width: 100vw;
+   background-image : linear-gradient(blue,green,black);
+}
+
+#box{
+
+    height: 200px;
+    width: 300px;
+     margin-left:85vh;
+     margin-top:100px;
+   background-color: aliceblue;
+    border: 2px solid rgb(23, 55, 141);
+    text-align: center;
+    box-shadow: 20px 10px 30px rgb(202, 202, 218);
+}
+h2{
+   padding-top: 20px;
+
+}
+
+h1{
+    text-align: center;
+    padding-top: 100px;
+    color: cornsilk;
+}
+
+
+#bu{
+    padding-top: 20px;
+    padding: 20px 10px;
+    border-radius: 10px;
+    background-color: rgb(91, 192, 199);
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    
+    gap: 20px;
+    /* justify-content: space-between; */
+}
+button:hover{
+   background-image : linear-gradient(blue,green,black);
+   color: white;
+}
+
+#bb{
+    padding: 10px 50px;
+    margin-top: 10px;
+    border-radius: 30px;
+}
